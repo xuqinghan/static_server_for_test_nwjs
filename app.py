@@ -1,9 +1,7 @@
 from flask import Flask, render_template
 from flask_cors import CORS
-from config import PATH_STATIC
 
-
-app = Flask(__name__, static_url_path = '',  static_folder= PATH_STATIC, template_folder='static/package.nw')
+app = Flask(__name__, static_url_path = '',  static_folder= 'static/package.nw', template_folder='static/package.nw')
 app.config['SECRET_KEY'] = 'secret!'
 app.config['JSON_AS_ASCII'] = False
 

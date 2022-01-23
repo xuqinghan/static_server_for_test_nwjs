@@ -12,7 +12,6 @@ pip install --use-pep517 blinker
 
 '''
 
-#import fcntl
 import sys
 from cx_Freeze import setup, Executable
 import os
