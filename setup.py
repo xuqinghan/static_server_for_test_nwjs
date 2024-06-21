@@ -30,7 +30,7 @@ options = {'includes': [], #子模块XX.xxx
             'include_files': ['static', 'README.md'],
             "packages": ['jinja2.ext'], # 'fcntl'手工创建
             "excludes": ['PIL', 'PyQt5', 'matplotlib', 'scipy', 'numba', 'Cython', 'GDAL', 'tkinter', 'pytz', 'numpy', 'zmq', 'tornado', 'greenlet', 'IPython', 'jupyter_client', 'notebook', 'nose', 'OpenSSL', 'distutils', 'test', 'win32com',
-             'asyncio', 'pydoc_data', 'unittest',
+             'pydoc_data', 'unittest',
             'cryptography', 'pkg_resources', #flask依赖，但这个项目不依赖
              ],
             "build_exe": '../build/static_server_nw',
